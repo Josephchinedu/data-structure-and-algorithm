@@ -1,0 +1,13 @@
+############ Big O
+Big O is used to formalize counting. It allow us to express how the runtime of algorithm grows with the input
+
+
+############ Binary Search
+Binary search is a search technique use to find element in a collection
+(binary search only works on sorted collection of element)
+    steps:
+        1. Initialize 2 pointers, start at the beginning of array, end at the end of array
+        2. Find the element at the middle of the two pointers
+        3. If element at the middle is bigger than our goal, set the end pointer to middle
+        4. If the element at the middle is smaller than our goal, we set the start pointer to middle + 1
+        #note: to get the middle is: start pointer + end pointer / 2 (floor math )
