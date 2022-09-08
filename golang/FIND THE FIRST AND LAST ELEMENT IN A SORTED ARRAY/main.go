@@ -20,7 +20,6 @@ func searchRange(nums []int, target int) []int {
 
 		mid = left + (right-left)/2
 
-		fmt.Println("mid", mid)
 
 		if nums[mid] == target {
 
