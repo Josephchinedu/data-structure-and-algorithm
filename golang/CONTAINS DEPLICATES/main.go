@@ -4,7 +4,7 @@ import (
 )
 
 func main() {
-	nums := []int{15,11, 4, 7, 11, 2, 15}
+	nums := []int{1,2,3,1}
 
 	result := containsDuplicates(nums)
 	fmt.Println(result)
